@@ -32,26 +32,28 @@ void Synth::reset()
     noiseGen.reset();
 }
 
+//called from pluginprocessor render method
 void Synth::render(float** outputBuffers, int sampleCount)
 {
     float* outputBufferLeft = outputBuffers[0];
     float* outputBufferRight = outputBuffers[1];
 
-    //1
+    //for each sampel in the outputbuffer calculate the sample value and insert it into the output buffer
     for (int sample = 0; sample < sampleCount; ++sample) {
-        //2
-        float noise = noiseGen.nextValue();
+        //calculate noise, multiply by noisemix(the ui value set by user to set the gain of the noise
+        float noise = noiseGen.nextValue() * noiseMix;
 
-        //3
+        //add everything to the output value
         float output = 0.0f;
         if (voice.note > 0) {
             output = voice.render();
             output += sinVoice.render();
+            output += noise;
             //output = noise * (voice.velocity / 127.0f) * 0.5f; //4
             //output = 0.6 * sin(2 * 3.14 * sampleCount * 440 / sampleRate);
         }
 
-        //5
+        //set the corresponding sample value to output in the output buffer, so juce renders it
         outputBufferLeft[sample] = output;
         if (outputBufferRight != nullptr) {
             outputBufferRight[sample] = output;

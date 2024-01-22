@@ -6,6 +6,7 @@
               pluginManufacturer="Chopov1" pluginManufacturerCode="Chop" pluginCode="MyJX">
   <MAINGROUP id="oS5kE5" name="MyJX11">
     <GROUP id="{8F386F23-4EF2-A785-D5D8-EE0646D8338F}" name="Source">
+      <FILE id="umBUGC" name="Preset.h" compile="0" resource="0" file="Source/Preset.h"/>
       <FILE id="GYvWMg" name="SinOscillator.h" compile="0" resource="0" file="Source/SinOscillator.h"/>
       <FILE id="jOEVni" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
       <FILE id="ERSjkE" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
