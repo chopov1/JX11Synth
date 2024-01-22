@@ -6,48 +6,8 @@
 *.log
 
 # Ignore build directories
-MyJX11/build/
+MyJX11/builds/
 MyJX11/bin/
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11_VST3.vcxproj.FileListAbsolute.txt
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11_VST3.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11.vst3/Contents/x86_64-win/MyJX11.vst3
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11.vst3/Contents/Resources/moduleinfo.json
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11.dll.recipe
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3/MyJX11.Build.CppClean.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3 Manifest Helper/MyJX11_VST3ManifestHelper.vcxproj.FileListAbsolute.txt
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3 Manifest Helper/MyJX11_VST3ManifestHelper.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3 Manifest Helper/juce_vst3_helper.exe.recipe
-MyJX11/Builds/VisualStudio2022/x64/Debug/VST3 Manifest Helper/juce_vst3_helper.Build.CppClean.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/Standalone Plugin/MyJX11_StandalonePlugin.vcxproj.FileListAbsolute.txt
-MyJX11/Builds/VisualStudio2022/x64/Debug/Standalone Plugin/MyJX11_StandalonePlugin.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/Standalone Plugin/MyJX11.Build.CppClean.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/Shared Code/MyJX11_SharedCode.vcxproj.FileListAbsolute.txt
-MyJX11/Builds/VisualStudio2022/x64/Debug/Shared Code/MyJX11_SharedCode.log
-MyJX11/Builds/VisualStudio2022/x64/Debug/Shared Code/MyJX11.lib.recipe
-MyJX11/Builds/VisualStudio2022/x64/Debug/Shared Code/MyJX11.Build.CppClean.log
-MyJX11/Builds/VisualStudio2022/MyJX11_VST3ManifestHelper.vcxproj
-MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj.user
-MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj.filters
-MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj
-MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj.user
-MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj.filters
-MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj
-MyJX11/Builds/VisualStudio2022/MyJX11_SharedCode.vcxproj.filters
-MyJX11/Builds/VisualStudio2022/MyJX11_SharedCode.vcxproj
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/Solution.VC.db
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/e9bb4f330be89d6f/PLUGINPROCESSOR.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/ad988094b77a9394/SYNTH.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/a4f297fe94fa8b72/PRESET.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/a3367934b9fd8411/PRESET.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/955039a7a5fb741d/PLUGINPROCESSOR.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/ipch/AutoPCH/10bbb4f62e22795a/PLUGINEDITOR.ipch
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/fileList.bin
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/Browse.VC.db
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/v17/.suo
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/d2d2b93b-a93c-4365-a742-e7f4b52036c9.vsidx
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/6831dd35-239f-4b97-b131-5ed1ef2a6e54.vsidx
-MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/2e2fba0f-63d4-41cb-8f87-25a40beae03b.vsidx
-MyJX11/Builds/MacOSX/MyJX11.xcodeproj/project.pbxproj
 *.pbxproj
 *.vcxproj
 *.filters
