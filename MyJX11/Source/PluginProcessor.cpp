@@ -334,6 +334,12 @@ void MyJX11AudioProcessor::setStateInformation (const void* data, int sizeInByte
 
 void MyJX11AudioProcessor::update()
 {
+    float sampleRate = float(getSampleRate());
+    
+    float decayTime = envDecayParam->get() / 100.0f * 5.0f;
+    float decaySamples = sampleRate * decayTime;
+    synth.envDecay = std::exp(std::log(SILENCE) / decaySamples);
+    
     //this method is inefficient as it uses a string to get the parameter value
    //const juce::String& paramID = ParameterID::noise.getParamID();
    //float noiseMix = apvts.getRawParameterValue(paramID)->load() / 100.0f;
@@ -341,6 +347,8 @@ void MyJX11AudioProcessor::update()
     float noiseMix = noiseParam->get() / 100.0f;
     noiseMix *= noiseMix;
     synth.noiseMix = noiseMix;
+    
+    
 }
 
 void MyJX11AudioProcessor::createPrograms()

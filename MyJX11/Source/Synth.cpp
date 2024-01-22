@@ -46,9 +46,9 @@ void Synth::render(float** outputBuffers, int sampleCount)
         //add everything to the output value
         float output = 0.0f;
         if (voice.note > 0) {
-            output = voice.render();
-            output += sinVoice.render();
-            output += noise;
+            output = voice.render(noise);
+            //output += sinVoice.render();
+            //output += noise;
             //output = noise * (voice.velocity / 127.0f) * 0.5f; //4
             //output = 0.6 * sin(2 * 3.14 * sampleCount * 440 / sampleRate);
         }
@@ -101,6 +101,9 @@ void Synth::noteOn(int note, int velocity)
     sinVoice.osc.amplitude = (velocity / 127.0f) * 0.5f;
     sinVoice.osc.inc = freq / sampleRate;
     sinVoice.osc.reset();
+    
+    voice.env.level = 1.0f;
+    voice.env.multiplier = envDecay;
 }
 
 void Synth::noteOff(int note)
