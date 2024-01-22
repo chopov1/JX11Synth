@@ -19,3 +19,11 @@ MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj.filters
 MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj
 MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj.filters
 MyJX11/Builds/VisualStudio2022/MyJX11_VST3ManifestHelper.vcxproj
+MyJX11/Builds/VisualStudio2022/MyJX11_VST3ManifestHelper.vcxproj
+MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj.filters
+MyJX11/Builds/VisualStudio2022/MyJX11_VST3.vcxproj
+MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj.filters
+MyJX11/Builds/VisualStudio2022/MyJX11_StandalonePlugin.vcxproj
+MyJX11/Builds/VisualStudio2022/MyJX11_SharedCode.vcxproj.filters
+MyJX11/Builds/VisualStudio2022/MyJX11_SharedCode.vcxproj
+MyJX11/Builds/MacOSX/MyJX11.xcodeproj/project.pbxproj
