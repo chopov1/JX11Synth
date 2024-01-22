@@ -48,3 +48,6 @@ MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/d2d2b93b-a93c-4365-a7
 MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/6831dd35-239f-4b97-b131-5ed1ef2a6e54.vsidx
 MyJX11/Builds/VisualStudio2022/.vs/MyJX11/FileContentIndex/2e2fba0f-63d4-41cb-8f87-25a40beae03b.vsidx
 MyJX11/Builds/MacOSX/MyJX11.xcodeproj/project.pbxproj
+*.pbxproj
+*.vcxproj
+*.filters
